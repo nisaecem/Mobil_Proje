@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewTatliResim"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="Tatlı Resmi" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTatliIsim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tatlı İsmi"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewTatliAciklama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tatlı Açıklama"
+            android:textSize="14sp"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+</LinearLayout>
